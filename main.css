@@ -12,11 +12,11 @@
   border-bottom: 1px solid #cdc8c8;
 }
 .nav-btn {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: inline-block;
   color: teal;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 .bmw-logo {
   display: none;
@@ -25,7 +25,7 @@
 .drop-content {
   background-color: #00808066;
   height: 100vh;
-  width: 30vw;
+  width: 40vw;
   z-index: 1;
   position: absolute;
   transform: translate(-100%);
@@ -35,7 +35,7 @@
 .drop-btn {
   display: block;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0.5rem;
   color: #cdc8c8;
   font-size: 2rem;
   border-bottom: 1px solid #cdc8c8;
@@ -45,7 +45,7 @@
   transform: translate(0%);
 }
 .drop-btn:hover {
-  padding-left: 1.3rem;
+  padding-left: 0.8rem;
 }
 @media screen and (min-width: 920px) {
   .nav-btn {
@@ -76,10 +76,10 @@
     border: none;
     font-size: 1.5rem;
     border-bottom: 1px solid transparent;
+    padding-left: 0.8rem;
   }
   .drop-btn:hover {
     border-bottom: 1px solid #cdc8c8;
-    padding: 1rem;
   }
   /* End of Navigation */
 }
@@ -108,7 +108,7 @@ p {
 }
 .banner-text {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 75px;
+  font-size: 3rem;
   text-transform: uppercase;
   padding-bottom: 35px;
   animation: button ease-in-out 1s;
